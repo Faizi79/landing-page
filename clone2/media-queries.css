@@ -1,0 +1,43 @@
+ /* media screen */
+ @media screen and (max-width: 991px) {
+  .nav-toggle{
+    display: block;
+    margin-right:20px ;
+  } 
+  .nav-links{
+    display: none;
+
+  }
+  .example-aera{
+    gap: 20px;
+  }
+  .example-card{
+    width: calc(50% - 10px);
+    height: 180px; 
+    /* flex-direction: row ; */
+
+  }
+  .cta-container{
+    flex-direction: column;
+  }
+  .pricing{
+   margin-top: 30px;
+    height: 200px;
+  }
+  .p-list{
+    background-size: 200px;
+    
+  }
+  .pricing {
+    /* background-image: url(8.png); */
+    background-size: 320px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+  }
+  .price-panel h3{
+    font-size:small;
+    
+ }
+  }
+ 
